@@ -1,0 +1,22 @@
+#header img[alt="North American Einstein Toolkit School and Workshop at NCSA"] { width: 400px; margin: 10px 0 0 5%; }
+
+em { color: #666; }
+
+.chair_bump { margin-bottom: 25px; }
+
+#bodycontent ul#hotel-list { list-style-type: none; margin: 0; padding: 0; }
+#bodycontent ul#hotel-list li { width: 45%; margin-right: 5%; float: left; min-height: 130px; }
+#bodycontent ul#hotel-list li.hotel-firstrow { min-height: 190px; }
+
+.segment { box-shadow: 1px 1px 2px #e6e6e6; }
+.white { box-shadow: none; }
+h4.program_date { float: left; width: 100%; }
+h4.program_date + ul, h4.program_date + p { clear: both; }
+
+@media handheld,projection,screen and (max-width: 800px) {
+#header img[alt="North American Einstein Toolkit School and Workshop at NCSA"] { width: 90%; margin-top: 76px; }
+}
+
+@media handheld, projection, screen and (max-width: 419px) {
+#header { height: 181px; }
+}
